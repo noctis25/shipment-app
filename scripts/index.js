@@ -155,7 +155,7 @@ function makeDb( config ) {
 
 
 
-    workbook.xlsx.writeFile("data/rates2.xlsx")
+    workbook.xlsx.writeFile("data/rates.xlsx")
     .then(() => {
     console.log("file saved!");
     });
