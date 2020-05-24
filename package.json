@@ -1,0 +1,25 @@
+{
+  "name": "whitebox",
+  "version": "1.0.0",
+  "description": "Ike's whitebox code challenge",
+  "main": "scripts/index.js",
+  "scripts": {
+    "test": "npm run test",
+    "start": "nodemon --exec babel-node scripts/index.js"
+  },
+  "author": "Ike Wachuku",
+  "license": "ISC",
+  "dependencies": {
+    "exceljs": "^3.9.0",
+    "lodash": "^4.17.15",
+    "mysql": "^2.18.1",
+    "util": "^0.12.3"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.9.6",
+    "@babel/node": "^7.8.7",
+    "@babel/preset-env": "^7.9.6",
+    "nodemon": "^2.0.4"
+  }
+}
