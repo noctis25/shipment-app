@@ -17,3 +17,7 @@ Grant privilages
 ```
 Grant privilege - GRANT ALL PRIVILEGES ON mysql.rates TO 'whitebox'@'%';
 ```
+To run 
+```
+npm start
+```
